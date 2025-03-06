@@ -1,0 +1,36 @@
+#  Librerie fondamentali per il progetto
+numpy==1.23.5                 # Libreria per l'elaborazione di array numerici
+pandas==1.5.3                 # Gestione ed elaborazione dei dati tabellari
+scikit-learn==1.2.2           # Strumenti di machine learning per il preprocessing e il TF-IDF
+scipy==1.10.1                 # Funzionalità avanzate di algebra lineare e ottimizzazione
+
+#  Tecnologie per il Retrieval
+faiss-cpu==1.7.4              # FAISS per la ricerca vettoriale e il nearest neighbor search
+rank-bm25==0.2.2              # Implementazione del modello BM25 per la ricerca testuale
+sentence-transformers==2.2.2  # Modelli NLP per generare embedding con BERT/SBERT
+
+#  Modelli di Machine Learning e NLP
+torch==2.0.1                  # PyTorch, framework per il deep learning
+transformers==4.30.2          # Modelli NLP avanzati (Hugging Face Transformers)
+huggingface-hub==0.16.4       # Per il caricamento di modelli pre-addestrati
+datasets==2.14.5              # Per la gestione di dataset NLP
+
+#  Debugging e Logging
+tqdm==4.65.0                  # Barra di progresso per visualizzare l'avanzamento delle operazioni
+loguru==0.7.0                 # Sistema avanzato di logging per il debugging
+
+#  Visualizzazione ed Analisi
+matplotlib==3.7.1             # Grafici e visualizzazioni
+seaborn==0.12.2               # Libreria avanzata per la visualizzazione dei dati
+
+#  Jupyter Notebook (solo se necessario per l'analisi esplorativa)
+jupyter==1.0.0                # Ambiente per scrivere ed eseguire codice interattivo
+notebook==6.5.4               # Versione specifica di Jupyter Notebook per stabilità
+
+#  File Management
+jsonschema==4.17.3            # Validazione e gestione di file JSON
+python-dotenv==1.0.0          # Per la gestione di variabili di ambiente nel progetto
+
+#  Altre dipendenze opzionali
+fastapi==0.100.0              # API per testare il sistema in un server locale (opzionale)
+uvicorn==0.22.0               # Server ASGI per FastAPI (opzionale)
